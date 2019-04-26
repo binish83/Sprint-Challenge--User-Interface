@@ -32,8 +32,27 @@ a {
     display: flex;
     
 }
-button{
-    border: 1px solid black;
+
+
+
+h3 {
+    padding: 30px 0px 0px 0px;
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    border: 2px solid black;
+    margin: 30px 0px 30px 0px;
+    font-size: 14px;
+    border-radius: 8px;
     background-color: white;
-    border-radius: 4px;
+}
+
+footer {
+
+    margin: 20px 0px 0px 0px;
+}
+
+.container {
+    border: 1px solid red;
 }
