@@ -1,0 +1,58 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+ .navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+
+a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+}
+
+.container about-page hero about img{
+    padding: 30px 30px 0px 0px;
+}
+
+.boxes{
+    display: flex;
+    
+}
+
+
+
+h3 {
+    padding: 30px 0px 0px 0px;
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    border: 2px solid black;
+    margin: 30px 0px 30px 0px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+footer {
+
+    margin: 20px 0px 0px 0px;
+}
+
+.container {
+    border: 1px solid red;
+}

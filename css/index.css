@@ -4,8 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -14,7 +13,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -71,6 +70,29 @@ p {
     margin: 0 auto;
 }
 
+
+ .navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px solid red;
+    width: 100%
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid red;
+    
+}
+
+a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +105,19 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container h2 p{
+    display:flex;
+   
+}
+.navContainer img{
+    border: 1px solid red;
+}
+
+.top-content img{
+    padding: 30px 30px 0px 0px;
+    
 }
 
 .middle-content {
@@ -143,4 +178,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content  .boxes .one {
+    background: teal;
+}
+
+.middle-content  .boxes .two {
+    background: gold;
+}
+.middle-content  .boxes .three {
+    background: cadetblue;
+}
+.middle-content  .boxes .four {
+    background: coral;
+}
+.middle-content  .boxes .five {
+    background: crimson;
+}
+.middle-content  .boxes .six {
+    background: forestgreen;
+}
+.middle-content  .boxes .seven {
+    background: darkorchid;
+}
+.middle-content  .boxes .eight {
+    background: hotpink;
+}
+.middle-content  .boxes .nine {
+    background: indigo;
+}
+.middle-content  .boxes .ten {
+    background: dodgerblue;
+}
+
+.top-content  h2{
+    padding: 30px 0 30px 0;
+    margin-bottom: 0;
+}
+
+.top-content img{
+
+}
+body, .container {
+    border: 1px solid red;
+}
+
+.jumbo {
+    
+    padding: 0px!important;
+    margin-top: 10px;
 }
